@@ -117,6 +117,7 @@
 * Must pull before push to remote repository when many people are working on the same branch
 
 ## Difference between git pull and git pull --rebase
+* Reference: https://www.atlassian.com/git/tutorials/syncing/git-pull
 * pull {fetch changes + merge with local}
 * git pull <remote> : just append remote new changes into local repository
 * git pull --rebase <remote>: create new commit to make new changes at local from remote
