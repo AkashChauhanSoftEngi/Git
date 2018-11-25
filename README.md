@@ -96,12 +96,22 @@
 * git revert -n commitId -> git status -> git commit -m "Message here!"
 * git revert commitId {not explicit commit is required} -> :q + enter
 
-## Clear terminal
-* git clear
-
 ## Reset {to a particular commit & delete all the chages after that commit}
 * git log
 * git reset --hard commitId
+
+## Delete commits at remote respository {https://www.youtube.com/watch?v=B5Ss4xNYWDY}
+* git log -n 4
+* git rebase -t commitId->delete pick lines->:wq + enter
+* git log -n 4
+* got push -f origin master {force push}
+
+## List log
+* git log
+* git log -n 4 {list last 4 commits}
+
+## Clear terminal
+* git clear
 
 ## Tips
 * Must pull before push to remote repository when many people are working on the same branch
