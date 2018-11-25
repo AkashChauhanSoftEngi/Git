@@ -9,16 +9,31 @@
 ## Version Control
 * Git is a distributed version control system(VCS)
 * SVN (Subversion) is a Central version control system
-* 
 
-## Create new local & Remote repository
-* git init {add .git or make it a git repository}
+## Set Config values
+* git config user.name "XXX"
+* git config user.email "YYY@gmail.com"
+* git config --list
+
+## Initialize directory as a git repository
+* git init {add .git folder or make it a git repository}
+
+## List all the files with all privileges
+* ls -la
+
+## Remove directory {ex: .git}
+* rm -rf .git
+
+## Current Branch
+* git status {which branch + untracked files}
+
+## Create a .gitignore file {to not store some files in our local repository}
+* touch .gitignore {Add example *.ml in gitignore file}
 
 ## Create new local & Remote branch
 * 
 
-## Current Branch
-* git status
+## Create new local & Remote repository
 
 ## To see, all the local & remote branches
 * git branche -a
