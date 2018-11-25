@@ -1,16 +1,34 @@
 # GIT
 
-## Git
+### Git
 ```text
 * Reference : https://www.youtube.com/watch?v=HVsySz-h9r4
 
+## Create new local & Remote repository
+* 
+
+## Create new local & Remote branch
+* 
+
+## Add changes to stage
+## Commit changes to local
+
+## Current Branch
+* git status
+
+## Delete local & remote branch
+git 
+
+## Tips
+* Must pull before push to remote repository when many people are working on the same branch
+
 ```
 
-## Git-Gui
+### Git-Gui
 ```text
 * Reference : https://www.youtube.com/watch?v=ov3_CkObQm8
 
-## Commands to use git at Mac/Terminal
+## Commands to use git-gui at Mac/Terminal
 * git gui
 
 ## Create a new local Repository
@@ -30,4 +48,8 @@
 ## Clone from Remote
 * new folder -> git gui -> clone repository
 * choose source{remote} and destination{local}
+```
+
+### Intellij + Git {Terminal + VCS}
+```text
 ```
