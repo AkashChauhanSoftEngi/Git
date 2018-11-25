@@ -62,17 +62,34 @@
 * git pull origin master {origin: remote repository, master: branch}
 * git push origin master
 
-## Create new Remote repository
+## Working with a new branch
+* git branch branchName
+* git branch
+* git checkout branchName
+* git status
+* git add -A
+* git commit -m "Message here!"
+* git push -u origin branchName
+* git branche -a
+* git checkout master {at local}
+* git pull origin master {from remote}
+* git branch --merged {branches merged so far}
+* git merge branchName {merge branchName with checked out branch}
+* git push origin master
+
+## Delete branch
+* git branch --merged
+* git branch -d branchName {local}
+* git branch -a
+* git push origin --delete branchName {remote}
+
 
 ## Commit changes to local repository
 * First add changes to stage area then, execute
 * git commit -m "Message here!"
 
-## Delete local & remote branch
-* git -d
-
 ## Revert changes in local & remote repository
-* got --delete
+* 
 
 ## Tips
 * Must pull before push to remote repository when many people are working on the same branch
