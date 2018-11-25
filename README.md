@@ -4,7 +4,7 @@
 ```text
 * Reference
   - https://www.youtube.com/watch?v=HVsySz-h9r4
-  - https://git-scm.com/videos
+  - https://git-scm.com
 
 ## Version Control
 * Git is a distributed version control system(VCS)
@@ -30,19 +30,42 @@
 ## Create a .gitignore file {to not store some files in our local repository}
 * touch .gitignore {Add example *.ml in gitignore file}
 
-## Create new local & Remote branch
-* 
+## Add files to staging area
+* git add .gitignore
+* git add -A {to add all}
 
-## Create new local & Remote repository
+## Remove files from staging area
+* git reset fileName.exe
+* git reset {remove everything from staging area}
+* git status
+
+## Flow at local
+* working Directory->Staging area->.git repository{git status(untracked files), git add -A, git commit}
+
+## Commit flow
+* git add -A
+* git commit -m "Message here!"
+* git status
+* git log
+
+## Clone a remote repository
+* git clone <URL> <Where to clone>{. means in present directory}
 
 ## To see, all the local & remote branches
 * git branche -a
 
-## Add changes to stage
+## Push changes
+* git diff
+* git status
 * git add -A
+* git commit -m "Message here!"
+* git pull origin master {origin: remote repository, master: branch}
+* git push origin master
 
-## Commit changes to local
-* Add changes to stage
+## Create new Remote repository
+
+## Commit changes to local repository
+* First add changes to stage area then, execute
 * git commit -m "Message here!"
 
 ## Delete local & remote branch
