@@ -46,7 +46,7 @@
 * git add -A
 * git commit -m "Message here!"
 * git status
-* git log
+* git log {commited id, author, date, message}
 
 ## Clone a remote repository
 * git clone <URL> <Where to clone>{. means in present directory}
@@ -87,12 +87,24 @@
 * First add changes to stage area then, execute
 * git commit -m "Message here!"
 
+## Descard changes in a file
+* git checkout -- filename.extention
+* git checkout -- . {undo all the files}
+
 ## Revert changes in local & remote repository
-* 
+* git log {copy the commitId}
+* git revert -n commitId -> git status -> git commit -m "Message here!"
+* git revert commitId {not explicit commit is required} -> :q + enter
+
+## Clear terminal
+* git clear
+
+## Reset {to a particular commit & delete all the chages after that commit}
+* git log
+* git reset --hard commitId
 
 ## Tips
 * Must pull before push to remote repository when many people are working on the same branch
-
 ```
 
 ### Git-Gui
