@@ -83,7 +83,6 @@
 * git branch -a
 * git push origin --delete branchName {remote}
 
-
 ## Commit changes to local repository
 * First add changes to stage area then, execute
 * git commit -m "Message here!"
