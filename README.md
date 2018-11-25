@@ -2,7 +2,9 @@
 
 ### Git
 ```text
-* Reference : https://www.youtube.com/watch?v=HVsySz-h9r4
+* Reference
+  - https://www.youtube.com/watch?v=HVsySz-h9r4
+  - https://git-scm.com/videos
 
 ## Create new local & Remote repository
 * 
