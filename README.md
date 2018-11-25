@@ -6,20 +6,35 @@
   - https://www.youtube.com/watch?v=HVsySz-h9r4
   - https://git-scm.com/videos
 
-## Create new local & Remote repository
+## Version Control
+* Git is a distributed version control system(VCS)
+* SVN (Subversion) is a Central version control system
 * 
+
+## Create new local & Remote repository
+* git init {add .git or make it a git repository}
 
 ## Create new local & Remote branch
 * 
 
-## Add changes to stage
-## Commit changes to local
-
 ## Current Branch
 * git status
 
+## To see, all the local & remote branches
+* git branche -a
+
+## Add changes to stage
+* git add -A
+
+## Commit changes to local
+* Add changes to stage
+* git commit -m "Message here!"
+
 ## Delete local & remote branch
-git 
+* git -d
+
+## Revert changes in local & remote repository
+* got --delete
 
 ## Tips
 * Must pull before push to remote repository when many people are working on the same branch
@@ -54,4 +69,7 @@ git
 
 ### Intellij + Git {Terminal + VCS}
 ```text
+## Create new local & remote branch
+* VCS-> Enable
+
 ```
