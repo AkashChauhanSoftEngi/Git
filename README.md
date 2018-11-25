@@ -1,8 +1,16 @@
-Git-Gui
+# GIT
 
+## Git
+'''text
+'''
+
+* Reference : https://www.youtube.com/watch?v=HVsySz-h9r4
+
+## Git-Gui
+'''text
 * Reference : https://www.youtube.com/watch?v=ov3_CkObQm8
 
-## Commands to use git at Mac
+## Commands to use git at Mac/Terminal
 * git gui
 
 ## Create a new local Repository
@@ -22,3 +30,4 @@ Git-Gui
 ## Clone from Remote
 * new folder -> git gui -> clone repository
 * choose source{remote} and destination{local}
+'''
