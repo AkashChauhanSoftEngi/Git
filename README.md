@@ -100,6 +100,12 @@
 * git log
 * git reset --hard commitId
 
+## Reset to last commit
+* git log
+* git reset --soft HEAD^ {save chnages as staged}
+* git reset --hard HEAD^ {move head to the last commit only}
+* git log
+
 ## Delete commits at remote respository {https://www.youtube.com/watch?v=B5Ss4xNYWDY}
 * git log -n 4
 * git rebase -t commitId->delete pick lines->:wq + enter
