@@ -26,6 +26,7 @@
 
 ## Current Branch
 * git status {which branch + untracked files}
+* git status -s {short status}
 
 ## Create a .gitignore file {to not store some files in our local repository}
 * touch .gitignore {Add example *.ml in gitignore file}
